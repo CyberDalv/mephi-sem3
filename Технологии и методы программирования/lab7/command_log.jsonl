@@ -1,0 +1,7 @@
+{"time": "2026-10-30T10:15:42.629708+00:00", "command": "cd", "args": [], "result": "ERROR", "detail": "OperationRejectedError: Требуется ровно один аргумент для cd"}
+{"time": "2026-10-30T10:15:51.130066+00:00", "command": "cp", "args": [], "result": "ERROR", "detail": "OperationRejectedError: Требуется ровно два аргумента для cp"}
+{"time": "2026-10-30T10:15:53.184469+00:00", "command": "rm", "args": [], "result": "ERROR", "detail": "OperationRejectedError: Требуется ровно один аргумент для rm"}
+{"time": "2026-10-30T10:16:44.187337+00:00", "command": "cd", "args": [], "result": "ERROR", "detail": "OperationRejectedError: Требуется ровно один аргумент для cd"}
+{"time": "2026-10-30T10:19:02.932249+00:00", "command": "cd", "args": ["missing"], "result": "ERROR", "detail": "FileNotFoundError: Объект не найден: missing"}
+{"time": "2026-10-30T10:19:12.158903+00:00", "command": "cd", "args": ["source.txt"], "result": "ERROR", "detail": "FileNotFoundError: Объект не найден: source.txt"}
+{"time": "2026-10-30T10:25:21.669817+00:00", "command": "pip3", "args": ["install", "pytest"], "result": "ERROR", "detail": "неизвестная команда: pip3"}

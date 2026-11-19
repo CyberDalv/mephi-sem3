@@ -1,0 +1,17 @@
+{"time": "2026-10-30T10:05:23.779341+00:00", "command": "зцв", "args": [], "result": "ERROR", "detail": "неизвестная команда: зцв"}
+{"time": "2026-10-30T10:05:26.031439+00:00", "command": "pwd", "args": [], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:05:27.673589+00:00", "command": "ls", "args": [], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:05:32.615201+00:00", "command": "help", "args": ["history"], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:05:50.934382+00:00", "command": "pwd", "args": [], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:05:52.827449+00:00", "command": "ls", "args": [], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:05:54.880517+00:00", "command": "mkdir", "args": [], "result": "ERROR", "detail": "неизвестная команда: mkdir"}
+{"time": "2026-10-30T10:06:17.614613+00:00", "command": "hash", "args": ["hash_demo/f0.txt"], "result": "ERROR", "detail": "успешно: 0, ошибок: 1"}
+{"time": "2026-10-30T10:06:24.529811+00:00", "command": "exit", "args": [], "result": "OK", "detail": "выход из менеджера"}
+{"time": "2026-10-30T10:06:37.134076+00:00", "command": "history", "args": [], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:08:29.384326+00:00", "command": "hash", "args": ["hash_demo/f0.txt"], "result": "ERROR", "detail": "успешно: 0, ошибок: 1"}
+{"time": "2026-10-30T10:09:35.179069+00:00", "command": "учше", "args": [], "result": "ERROR", "detail": "неизвестная команда: учше"}
+{"time": "2026-10-30T10:09:37.298550+00:00", "command": "exit", "args": [], "result": "OK", "detail": "выход из менеджера"}
+{"time": "2026-10-30T10:11:38.310776+00:00", "command": "hash", "args": ["hash_demo/f0.txt", "hash_demo/f1.txt", "hash_demo/f2.txt"], "result": "OK", "detail": "успешно: 3, ошибок: 0"}
+{"time": "2026-10-30T10:11:47.508818+00:00", "command": "history", "args": [], "result": "OK", "detail": "успешно"}
+{"time": "2026-10-30T10:11:52.060723+00:00", "command": "clear", "args": [], "result": "ERROR", "detail": "неизвестная команда: clear"}
+{"time": "2026-10-30T10:11:54.051560+00:00", "command": "exit", "args": [], "result": "OK", "detail": "выход из менеджера"}

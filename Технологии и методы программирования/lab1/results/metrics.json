@@ -1,0 +1,119 @@
+{
+  "environment": {
+    "operating_system": "Darwin",
+    "python_version": "3.14.4",
+    "python_executable": "/Users/vladimircmel/Documents/МИФИ/Третий семестр/Технологии и методы программирования/lab1/.venv/bin/python"
+  },
+  "experiment": {
+    "file_count": 12,
+    "repeats": 7,
+    "artificial_delay_seconds": 0.12,
+    "thread_counts": [
+      1,
+      2,
+      4,
+      8
+    ]
+  },
+  "sequential": {
+    "durations_seconds": [
+      1.494989208993502,
+      1.49937087498256,
+      1.493824749981286,
+      1.4946861669886857,
+      1.4932556659914553,
+      1.4967314160021488,
+      1.5004153329937253
+    ],
+    "median_seconds": 1.494989208993502
+  },
+  "thread_experiments": [
+    {
+      "thread_count": 1,
+      "durations_seconds": [
+        1.491726332984399,
+        1.5078509579761885,
+        1.4890461250033695,
+        1.4911612079886254,
+        1.4899648330174387,
+        1.4905608749832027,
+        1.5067012090003118
+      ],
+      "median_seconds": 1.4911612079886254,
+      "speedup": 1.0025671275408512,
+      "efficiency": 1.0025671275408512,
+      "result_matches_sequential": true
+    },
+    {
+      "thread_count": 2,
+      "durations_seconds": [
+        0.7497549580002669,
+        0.7505857910146005,
+        0.7468045410059858,
+        0.7450206670037005,
+        0.7501430839765817,
+        0.7473213750054128,
+        0.7549601250211708
+      ],
+      "median_seconds": 0.7497549580002669,
+      "speedup": 1.9939704206570512,
+      "efficiency": 0.9969852103285256,
+      "result_matches_sequential": true
+    },
+    {
+      "thread_count": 4,
+      "durations_seconds": [
+        0.3758875839994289,
+        0.37638724999851547,
+        0.3747247909777798,
+        0.3775621250097174,
+        0.3781327079923358,
+        0.37541220799903385,
+        0.3797872919822112
+      ],
+      "median_seconds": 0.37638724999851547,
+      "speedup": 3.9719443445531124,
+      "efficiency": 0.9929860861382781,
+      "result_matches_sequential": true
+    },
+    {
+      "thread_count": 8,
+      "durations_seconds": [
+        0.2533460420090705,
+        0.2505491659976542,
+        0.25398470798972994,
+        0.2538614170043729,
+        0.25505812498158775,
+        0.25346804200671613,
+        0.2525655409845058
+      ],
+      "median_seconds": 0.25346804200671613,
+      "speedup": 5.89813688999061,
+      "efficiency": 0.7372671112488263,
+      "result_matches_sequential": true
+    }
+  ],
+  "subprocess": {
+    "durations_seconds": [
+      0.04660349999903701,
+      0.02683591700042598,
+      0.0224412499810569,
+      0.020756666985107586,
+      0.019708417006768286,
+      0.020551207999233156,
+      0.02014412498101592
+    ],
+    "median_seconds": 0.020756666985107586,
+    "result_is_correct": true
+  },
+  "correctness": {
+    "all_thread_results_match": true,
+    "subprocess_result_matches": true
+  },
+  "totals": {
+    "files": 12,
+    "lines": 3666,
+    "words": 32994,
+    "characters": 219960
+  }
+}

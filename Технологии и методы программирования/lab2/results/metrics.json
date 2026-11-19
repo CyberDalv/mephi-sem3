@@ -1,0 +1,99 @@
+{
+  "environment": {
+    "operating_system": "Darwin",
+    "python_version": "3.14.4",
+    "python_executable": "/Users/vladimircmel/Documents/МИФИ/Третий семестр/Технологии и методы программирования/lab2/.venv/bin/python",
+    "available_start_methods": [
+      "spawn",
+      "fork",
+      "forkserver"
+    ]
+  },
+  "experiment": {
+    "limit": 300000,
+    "repeats": 5,
+    "worker_counts": [
+      1,
+      2,
+      4
+    ],
+    "required_start_method": "spawn"
+  },
+  "expected_result": {
+    "count": 25997,
+    "max_prime": 299993,
+    "checksum": 709507093
+  },
+  "sequential": {
+    "durations_seconds": [
+      0.14809195799170993,
+      0.14719925000099465,
+      0.14758870800142176,
+      0.14749329100595787,
+      0.14755337501992472
+    ],
+    "median_seconds": 0.14755337501992472,
+    "result_matches_expected": true
+  },
+  "process_runs": [
+    {
+      "start_method": "spawn",
+      "workers": 1,
+      "durations_seconds": [
+        0.2014811659755651,
+        0.1840685830102302,
+        0.182562333997339,
+        0.18364458400174044,
+        0.1833287079934962
+      ],
+      "median_seconds": 0.18364458400174044,
+      "speedup": 0.8034725108937942,
+      "efficiency": 0.8034725108937942,
+      "result_matches_sequential": true
+    },
+    {
+      "start_method": "spawn",
+      "workers": 2,
+      "durations_seconds": [
+        0.13252424998790957,
+        0.13335008299327455,
+        0.13285370799712837,
+        0.13249749998794869,
+        0.13335695801652037
+      ],
+      "median_seconds": 0.13285370799712837,
+      "speedup": 1.1106455156156732,
+      "efficiency": 0.5553227578078366,
+      "result_matches_sequential": true
+    },
+    {
+      "start_method": "spawn",
+      "workers": 4,
+      "durations_seconds": [
+        0.0939103749988135,
+        0.09502979202079587,
+        0.09394441699259914,
+        0.09417129200301133,
+        0.09435287502128631
+      ],
+      "median_seconds": 0.09417129200301133,
+      "speedup": 1.5668615337167338,
+      "efficiency": 0.39171538342918344,
+      "result_matches_sequential": true
+    }
+  ],
+  "fork_run": {
+    "status": "completed",
+    "workers": 4,
+    "durations_seconds": [
+      0.058317999995779246,
+      0.057148249994497746,
+      0.06628699999419041,
+      0.05802104200120084,
+      0.0651305420033168
+    ],
+    "median_seconds": 0.058317999995779246,
+    "fork_to_spawn_ratio": 0.6192757766763399,
+    "result_matches_sequential": true
+  }
+}
